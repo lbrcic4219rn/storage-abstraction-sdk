@@ -3,21 +3,33 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <parent>
         <groupId>com.github.lbrcic4219rn</groupId>
         <artifactId>storage-abstraction-sdk</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>storage-abstraction-sdk-local-impl</artifactId>
+    <artifactId>demo</artifactId>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
 
     <dependencies>
         <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.36</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
             <groupId>com.github.lbrcic4219rn</groupId>
-            <artifactId>storage-abstraction-sdk-specification</artifactId>
+            <artifactId>storage-abstraction-sdk-local-impl</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
-
 </project>

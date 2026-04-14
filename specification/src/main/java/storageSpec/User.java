@@ -35,12 +35,6 @@ public class User {
     private Map<String, Privilege> storagesAndPrivileges = new HashMap<>();
 
     /**
-     * Constructs an empty user.
-     */
-    public User() {
-    }
-
-    /**
      * Constructs a user with the given credentials.
      *
      * @param userName login name

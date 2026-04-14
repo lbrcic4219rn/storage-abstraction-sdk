@@ -12,7 +12,9 @@
     <modules>
         <module>specification</module>
         <module>local-impl</module>
-<!--        <module>google-drive-impl</module>-->
+        <module>demo</module>
+        <module>demo</module>
+        <!--        <module>google-drive-impl</module>-->
     </modules>
 
     <properties>
